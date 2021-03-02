@@ -16,7 +16,7 @@ jobs:
         with:
           dotnet-version: 3.0.100
       - name: Setup Python
-        uses: actions/setup-python@v1.2.0
+        uses: actions/setup-python@v2
         with:
           python-version:: 3.7.4
       - name: Pip install cos-python
